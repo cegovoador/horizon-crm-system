@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom CRM colors
+				crm: {
+					primary: '#1EAEDB',
+					secondary: '#33C3F0',
+					dark: '#333333',
+					gray: {
+						light: '#F1F1F1',
+						medium: '#8E9196',
+						dark: '#555555',
+					},
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
