@@ -160,7 +160,7 @@ const FormMessage = React.forwardRef<
       {...props}
     >
       {body}
-    />
+    </p>
   )
 })
 FormMessage.displayName = "FormMessage"
