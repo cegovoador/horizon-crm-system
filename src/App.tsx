@@ -9,6 +9,7 @@ import LoginPage from "./pages/auth/LoginPage";
 import DashboardPage from "./pages/dashboard/DashboardPage";
 import FinancePage from "./pages/finance/FinancePage";
 import InventoryPage from "./pages/inventory/InventoryPage";
+import SettingsPage from "./pages/settings/SettingsPage";
 import NotFound from "./pages/NotFound";
 import ProtectedRoute from "./components/auth/ProtectedRoute";
 import ResetPasswordPage from "./pages/auth/ResetPasswordPage";
@@ -32,6 +33,7 @@ const App = () => (
               <Route path="/dashboard" element={<DashboardPage />} />
               <Route path="/finance" element={<FinancePage />} />
               <Route path="/inventory" element={<InventoryPage />} />
+              <Route path="/settings" element={<SettingsPage />} />
             </Route>
             
             <Route path="*" element={<NotFound />} />
